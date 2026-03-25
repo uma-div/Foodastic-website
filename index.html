@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>foodastic pickles</title>
+    <!--Bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <style>
+     body {
+    font-family: 'Poppins', sans-serif;
+  }
+  @media (max-width: 992px) {
+  body {
+    padding-top: 100px;
+  }
+}
+ @media (max-width: 576px) {
+  body {
+    padding-top: 120px;
+  }
+}
+    .hero-section {
+        background: linear-gradient(135deg, #c8f39b 0%, #eaf2f3 100%);
+        padding: 120px 0;
+        min-height: 100vh;
+        
+      }
+      #section-home {
+    padding: 80px 20px;
+  }
+   section-home h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #222; /* soft black */
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  #section-home p {
+    font-size: 18px;
+    color: #555; /* grey */
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  #section-pickle {
+  background-color: #fff8e1; /* light warm color */
+}
+    .card {
+        border: none;
+        transition: transform 0.3s ease;
+        border-radius: 15px;
+         height: 200px;
+        object-fit: cover;
+        overflow: hidden;
+      }
+      .card:hover {
+        transform: translatey(-5px);
+      }  
+      .btn-warning {
+  border-radius: 20px;
+     #section-contact {
+  background-color: #fff3cd; /* light warm yellow */
+}
+
+#section-contact h5 {
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+#section-about {
+  background-color: #fff8e1;
+}
+
+#section-about h4 {
+  margin-bottom: 15px;
+}
+
+#section-about p {
+  color: #555;
+  line-height: 1.6;
+}
+#section-about img {
+  border-radius: 15px;
+}
+.footer {
+  background-color: #8B0000; /* dark red */
+}
+
+.footer h5 {
+  margin-bottom: 15px;
+}
+
+.footer a:hover {
+  color: #FFD700; /* golden hover */
+}
+.footer p {
+  margin: 5px 0;
+}
+}
+   </style>
+   <body>
+  <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar" style="background-color: #f7f7f2;">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+          <img
+            src="ChatGPT Image Mar 24, 2026, 11_49_49 AM.png"
+            alt="Logo"
+            width="40"
+            height="40"
+          />
+          Foodastic
+          <div>
+            <small class="text-muted">Tastes Like Fantastic</small>
+          </div>
+          </a>
+          <div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#section-home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section-pickle">Pickles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section-contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section-about" tabindex="-1" aria-disabled="true">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+  <!--navbar ends-->
+
+  <!--home section-->
+    <section id="section-home" class=" hero-section  align-items-center f">
+      <div class="container">
+        <div class="row align-items-center gy-5 p-lg-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-4 fw-bold mb-4">Homemade Pickles</h1>
+            <p class="lead mb-4">Authentic taste,made with love</p>
+          
+            <div
+              class="d-flex flex-colum flex-sm-row gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a class="btn btn-primary btn-lg w-100 w-sm-auto" href="#content"
+                >Order Now</a
+              >
+        </div>
+         </div> 
+         <div class="col-lg-6">
+            <img
+              class="img-fluid rounded-4 shad"
+              src="ChatGPT Image Mar 25, 2026, 09_05_36 PM.png"
+              alt=""
+            />
+          </div>      
+      </div>
+    </section>
+  <!--home section ends-->
+
+  <!--pickle section-->
+     <section id="section-pickle" class="py-5">
+  <div class="container">
+
+    <!-- Title -->
+    <h2 class="text-center mb-5 fw-bold">Our Pickles</h2>
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://assets-jpcust.jwpsrv.com/thumbnails/gmepnftu-720.jpg" class="card-img-top" alt="Mango Pickle">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mango Pickle</h5>
+            <p class="card-text">Spicy and traditional Andhra style</p>
+            <p class="fw-bold">₹250</p>
+            <a href="#" class="btn btn-warning">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://www.ekirana.nl/media/amasty/amoptmobile/wysiwyg/ekirana/blog-images/Gongura-and-avakaya-pickles_jpg.webp" class="card-img-top" alt="Gongura Pickle">
+          <div class="card-body text-center">
+            <h5 class="card-title">Gongura Pickle</h5>
+            <p class="card-text">Tangy and authentic homemade taste</p>
+            <p class="fw-bold">₹220</p>
+            <a href="#" class="btn btn-warning">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://cookbook.pfeiffer.net.au/files/pickleLemonSweet.jpg" class="card-img-top" alt="Lemon Pickle">
+          <div class="card-body text-center">
+            <h5 class="card-title">Lemon Pickle</h5>
+            <p class="card-text">Zesty and flavorful</p>
+            <p class="fw-bold">₹200</p>
+            <a href="#" class="btn btn-warning">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow-sm">
+    <img src="https://m.media-amazon.com/images/I/51iF6IPBIEL._AC_UF894%2C1000_QL80_.jpg" class="card-img-top" alt="Pandumirchi Pickle">
+    <div class="card-body text-center">
+      <h5 class="card-title">Pandumirchi Pickle</h5>
+      <p class="card-text">Extra spicy red chilli pickle</p>
+      <p class="fw-bold">₹230</p>
+      <a href="#" class="btn btn-warning">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Card 5 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow-sm">
+    <img src="https://m.media-amazon.com/images/I/515CWj6NqdL.jpg" class="card-img-top" alt="Allam Pickle">
+    <div class="card-body text-center">
+      <h5 class="card-title">Allam Pickle</h5>
+      <p class="card-text">Spicy and healthy ginger pickle</p>
+      <p class="fw-bold">₹210</p>
+      <a href="#" class="btn btn-warning">Order Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- Card 6 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow-sm">
+    <img src="https://farm8.staticflickr.com/7407/10582460595_23cc3d8212_b.jpg" class="card-img-top" alt="Tomato Pickle">
+    <div class="card-body text-center">
+      <h5 class="card-title">Tomato Pickle</h5>
+      <p class="card-text">Tangy and rich tomato flavor</p>
+      <p class="fw-bold">₹200</p>
+      <a href="#" class="btn btn-warning">Order Now</a>
+    </div>
+  </div>
+</div>
+    </div>
+
+  </div>
+     </section>
+  <!--pickle section ends-->
+  <!--contact section-->
+      <section id="section-contact" class="py-5">
+      <div class="container">
+
+    <!-- Title -->
+    <h2 class="text-center fw-bold mb-5">Contact Us</h2>
+
+    <div class="row g-4">
+
+      <!-- Left: Contact Info -->
+      <div class="col-md-5">
+        <h5>Get in Touch</h5>
+        <p>We’d love to hear from you ❤️</p>
+
+        <p><strong>📞 Phone:</strong> +91 9876543210</p>
+        <p><strong>📍 Address:</strong> Hyderabad, India</p>
+        <p><strong>✉️ Email:</strong> foodastic@gmail.com</p>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="col-md-7">
+        <form>
+
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+
+          <button class="btn btn-warning w-100">Send Message</button>
+
+        </form>
+       </div>
+      </div>
+      </div>
+    </section>
+  <!--contact section ends-->
+
+  <!--About section-->
+    <section id="section-about" class="py-5">
+     <div class="container">
+
+    <!-- Title -->
+    <h2 class="text-center fw-bold mb-5">About Us</h2>
+
+    <div class="row align-items-center gx-5">
+
+      <!-- Left Image -->
+      <div class="col-md-6">
+        <img src="IMG_2710.jpg" class="img-fluid rounded" alt="About Us">
+      </div>
+
+      <!-- Right Content -->
+      <div class="col-md-6">
+        <h4 class="fw-bold">Homemade Goodness in Every Bite</h4>
+        
+        <p>
+          At Foodastic, we prepare pickles using traditional recipes passed down through generations.
+          Every jar is made with fresh ingredients, authentic spices, and lots of love ❤️.
+        </p>
+
+        <p>
+          We believe in delivering real homemade taste without preservatives, just like how it is made at home.
+        </p>
+
+        <a href="#section-pickle" class="btn btn-warning mt-3">Explore Pickles</a>
+      </div>
+
+      </div>
+
+     </div>
+    </section>
+  <!--About section ends-->
+  
+
+  <!--Footer-->   
+     <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Foodastic</h5>
+            <p>&copy;Foodastic.All rights reserved</p>
+          </div>
+          <div class="col-md-6 mb-0 text-md-end">
+            <div class="social-links">
+             
+               <a class="text-white" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+               
+               <a class="text-white" href="#">
+                 <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+     </footer>
+    
+  <!--Footer ends-->
+
+  <!--Bootstrap Js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  </body>
+</html>
